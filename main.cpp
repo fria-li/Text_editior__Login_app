@@ -92,5 +92,39 @@ void mergefiles(){
     }
     cout << "the word '" << word <<"' was found " << count << " times" << endl;
 }
-
+int numoflines(){
+    string line;
+    int count = 0;
+    while (!sourcefile.eof()){
+        getline(sourcefile, line);
+        count++;
+    }
+    return count;
+}
+int numofchars() {
+    string word;
+    int count = 0;
+    while(!sourcefile.eof()){
+        if (sourcefile >> word){
+            for (char ch :word) {
+                count++;
+            }
+        } else{
+            count = count;
+        }
+    }
+    return count;
+}
+int numofwords(){
+    string word;
+    int count = 0;
+    while(!sourcefile.eof()){
+        if (sourcefile >> word){
+            count++;
+        } else{
+            count = count;
+        }
+    }
+    return count;
+}
 
