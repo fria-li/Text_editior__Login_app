@@ -1,4 +1,4 @@
-/Users/farahhany/Desktop/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir
-/Users/farahhany/Desktop/untitled2/cmake-build-debug/CMakeFiles/test1.dir
-/Users/farahhany/Desktop/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/farahhany/Desktop/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/farahhany/Documents/GitHub/Text_editior__Login_app/cmake-build-debug/CMakeFiles/untitled2.dir
+/Users/farahhany/Documents/GitHub/Text_editior__Login_app/cmake-build-debug/CMakeFiles/test1.dir
+/Users/farahhany/Documents/GitHub/Text_editior__Login_app/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/farahhany/Documents/GitHub/Text_editior__Login_app/cmake-build-debug/CMakeFiles/rebuild_cache.dir
