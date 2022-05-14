@@ -127,4 +127,21 @@ int numofwords(){
     }
     return count;
 }
+void wordsearch(){
+    string word;
+    string m;
+    bool state = false;
+    cout << "Enter the word you're searching for : ";
+    cin >> word;
+    while (sourcefile >> m) {
+        if (m.find(word, 0) != string::npos) {
+            cout << "The word have been found!!!\n ";
+            state = true;
+        }
+    }
+    if (!state){
+        cout << "The word couldn't be found :(\n";
+    }
+}
+
 
